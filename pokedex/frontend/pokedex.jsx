@@ -5,7 +5,7 @@ import { fetchAllPokemon } from './util/api_util';
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('root');
-  ReactDOM.render(<h1>Pokedex</h1>, rootEl);
   window.receiveAllPokemon = receiveAllPokemon;
   window.fetchAllPokemon = fetchAllPokemon;
+  ReactDOM.render(<h1>Pokedex</h1>, rootEl);
 });

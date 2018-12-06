@@ -128,9 +128,9 @@ __webpack_require__.r(__webpack_exports__);
 
 document.addEventListener('DOMContentLoaded', function () {
   var rootEl = document.getElementById('root');
-  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Pokedex"), rootEl);
   window.receiveAllPokemon = _actions_pokemon_actions__WEBPACK_IMPORTED_MODULE_2__["receiveAllPokemon"];
   window.fetchAllPokemon = _util_api_util__WEBPACK_IMPORTED_MODULE_3__["fetchAllPokemon"];
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Pokedex"), rootEl);
 });
 
 /***/ }),
