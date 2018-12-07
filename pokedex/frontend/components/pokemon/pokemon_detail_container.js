@@ -6,7 +6,8 @@ import PokemonDetail from './pokemon_detail';
 
 const mapStateToProps = (state, ownProps) => {
   return {pokemon: state.entities.pokemon[ownProps.match.params.id], 
-          pokemonID: ownProps.match.params.id};
+          pokemonID: ownProps.match.params.id,
+          items: Object.values(state.entities.items)};
 };
 
 const mapDispatchToProps = dispatch => ({
